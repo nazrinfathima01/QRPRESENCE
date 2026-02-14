@@ -12,7 +12,7 @@
 - Member 1: FATHIMA NAZRIN OA -ICET
 - Member 2: VINEETTA WS -ICET
 ### Hosted Project Link
-[mention your project hosted link here]
+[project hosted link here](https://nazrinfathima01.github.io/QRPRESENCE/)
 
 ### Project Description
 This project automatically marks student attendance using QR code ID cards.
