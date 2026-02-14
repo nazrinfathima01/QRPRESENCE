@@ -2,70 +2,97 @@
   <img src="./img.png" alt="Project Banner" width="100%">
 </p>
 
-# [Project Name] 🎯
+# [Project Name] ID Card Scanner Attendance System
 
 ## Basic Details
 
-### Team Name: [Name]
+### Team Name:dodo
 
 ### Team Members
-- Member 1: [Name] - [College]
-- Member 2: [Name] - [College]
-
+- Member 1: FATHIMA NAZRIN OA -ICET
+- Member 2: VINEETTA WS -ICET
 ### Hosted Project Link
 [mention your project hosted link here]
 
 ### Project Description
-[2-3 lines about what your project does]
+This project automatically marks student attendance using QR code ID cards.
+Students scan their ID cards via a webcam, and the system records them as present.
+It generates a digital attendance report, saving time and reducing manual errors.
 
 ### The Problem statement
-[What problem are you solving?]
-
+Manual attendance in classrooms is time-consuming, inefficient, and prone to errors, especially for large classes. Teachers often spend several minutes per student, and mistakes like marking the wrong student present or absent can occur. There is a need for a fast, accurate, and automated attendance system that reduces human effort and ensures reliable record-keepin
 ### The Solution
 [How are you solving it?]
 
----
+---We solve this problem by using QR code ID cards and a scanner system. Students scan their ID cards via a webcam, the system automatically verifies their ID and marks them present. At the end, it generates a digital attendance report, saving time, reducing errors, and making attendance management efficient and accurate.
 
 ## Technical Details
 
 ### Technologies/Components Used
 
 **For Software:**
-- Languages used: [e.g., JavaScript, Python, Java]
-- Frameworks used: [e.g., React, Django, Spring Boot]
-- Libraries used: [e.g., axios, pandas, JUnit]
-- Tools used: [e.g., VS Code, Git, Docker]
+- 
+- ---Languages used: Python
+
+Libraries used: opencv-python, pyzbar, qrcode, pillow
+
+Tools used: VS Code, Python interpreter
+
+For Hardware:
+
+Main components: Webcam (built-in or USB), Computer
+
+Specifications: Minimum 720p camera, Windows/Linux/Mac
+
+Tools required: Python installed, VS Code
+
 
 **For Hardware:**
-- Main components: [List main components]
-- Specifications: [Technical specifications]
-- Tools required: [List tools needed]
-
----
+- 
 
 ## Features
 
 List the key features of your project:
-- Feature 1: [Description]
-- Feature 2: [Description]
-- Feature 3: [Description]
-- Feature 4: [Description]
+-List the key features of your project:
+- Scan student ID cards with QR codes
+
+Automatically mark attendance
+
+Prevent duplicate attendance marking
+
+Generate and save attendance reports (CSV)
 
 ---
-
 ## Implementation
 
 ### For Software:
 
 #### Installation
-```bash
-[Installation commands - e.g., npm install, pip install -r requirements.txt]
+`pip install opencv-python pyzbar qrcode pillow
+
 ```
 
 #### Run
-```bash
-[Run commands - e.g., npm start, python app.py]
-```
+python generate_qr.py
+python attendance_scanner.py
+
+
+#### Components Required
+Software Components:
+
+Python – Programming language to build the system
+
+Libraries:
+
+opencv-python → To access webcam and capture images
+
+pyzbar → To read QR codes
+
+qrcode → To generate QR codes for student IDs
+
+pillow → To handle QR code images
+
+VS Code / Any IDE – To write and run Python code  
 
 ### For Hardware:
 
@@ -83,10 +110,10 @@ List the key features of your project:
 
 #### Screenshots (Add at least 3)
 
-![Screenshot1](Add screenshot 1 here with proper name)
+![Screenshot1](./1.png)
 *Add caption explaining what this shows*
 
-![Screenshot2](Add screenshot 2 here with proper name)
+![Screenshot2](./2.png)
 *Add caption explaining what this shows*
 
 ![Screenshot3](Add screenshot 3 here with proper name)
